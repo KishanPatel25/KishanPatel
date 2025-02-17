@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kishan Patel - Data Engineer & PowerPlatform Specialist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Kishan Patel</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- About Me Section with Image -->
+    <section id="about" class="section">
+      <div class="container about-container">
+        <img src="profile.jpg" alt="Kishan Patel" class="profile-image">
+        <div class="about-text">
+          <h1>About Me</h1>
+          <p>
+            Hello, I’m Kishan Patel, a Microsoft Certified Data Engineer based in Toronto. I specialize in designing scalable ETL/ELT pipelines, building robust data models, and developing interactive analytics frameworks. With extensive experience in SQL, Python, Power BI, and Azure technologies, I transform raw data into actionable insights that drive operational efficiency and significant cost savings.
+          </p>
+          <p>
+            Currently, I architect data solutions that process millions of records daily, automate data validation workflows, and create dynamic dashboards to empower decision-makers. Whether it's developing real-time reporting tools or integrating diverse data sources into a single source of truth, I thrive on solving complex challenges and embracing emerging technologies. I also welcome freelance opportunities to bring innovative data solutions to diverse projects.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section with Links -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h1>Projects</h1>
+        <div class="project-grid">
+          <!-- Project Card: Equipment Utilization Dashboard -->
+          <div class="project-card">
+            <h2>Equipment Utilization Dashboard</h2>
+            <p><strong>Challenge:</strong> Inefficiencies arose from the lack of real-time equipment utilization insights, causing increased costs and delayed maintenance.</p>
+            <p><strong>Approach:</strong> Developed a centralized Power BI dashboard by integrating data from multiple equipment APIs using an ELT pipeline built on Azure Data Factory, Data Lake, SQL, and Python.</p>
+            <p><strong>Outcome:</strong> Achieved $500K in cost savings in 2024, improved operational efficiency by 35%, and reduced manual reporting efforts by 70%.</p>
+            <p><a href="project-equipment.html" class="project-link">Read full details &rarr;</a></p>
+          </div>
+          <!-- Project Card: Master Data Warehouse for Enterprise Integration -->
+          <div class="project-card">
+            <h2>Master Data Warehouse for Enterprise Integration</h2>
+            <p><strong>Challenge:</strong> Fragmented data across multiple systems was leading to manual inefficiencies and unreliable reporting.</p>
+            <p><strong>Approach:</strong> Built a centralized, Azure-based data warehouse using a Snowflake schema and automated data ingestion with Python and Azure Data Factory.</p>
+            <p><strong>Outcome:</strong> Reduced manual data processing by 80% and established a unified source of truth for enterprise reporting.</p>
+            <p><a href="project-datawarehouse.html" class="project-link">Read full details &rarr;</a></p>
+          </div>
+          <!-- Additional project cards can be added here as needed -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+      <div class="container">
+        <h1>Blog</h1>
+        <div class="blog-list">
+          <article class="blog-post">
+            <h2>Blog Post Title 1</h2>
+            <p>Excerpt from the blog post. <a href="#">Read more</a></p>
+          </article>
+          <article class="blog-post">
+            <h2>Blog Post Title 2</h2>
+            <p>Excerpt from the blog post. <a href="#">Read more</a></p>
+          </article>
+          <!-- Future blog posts can be added here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h1>Contact Me</h1>
+        <p>
+          If you'd like to get in touch or discuss freelance opportunities, please fill out the form below.
+        </p>
+        <!-- Replace "your-form-id" with your actual Formspree ID -->
+        <form 
+        action="https://formspree.io/f/mrbeoyyy"
+        method="POST"
+>
+        <label>
+          Your email:
+          <input type="email" name="email">
+        </label>
+        <label>
+          Your message:
+          <textarea name="message"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Kishan Patel. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

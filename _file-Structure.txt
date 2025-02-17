@@ -1,0 +1,23 @@
+.
+├── _config.yml
+├── _layouts
+│   ├── default.html
+│   ├── page.html
+│   └── post.html
+├── _includes
+│   ├── header.html
+│   └── footer.html
+├── index.md
+├── about.md
+├── projects.md
+├── blog.md
+├── contact.md
+├── projects
+│   ├── equipment-utilization.md
+│   └── data-warehouse.md
+├── _posts
+│   ├── 2025-01-01-blog-post-1.md
+│   └── 2025-01-15-blog-post-2.md
+├── style.css
+├── script.js
+└── profile.jpg   (your profile image file)
